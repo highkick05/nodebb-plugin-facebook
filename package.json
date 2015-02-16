@@ -1,0 +1,53 @@
+{
+  "name": "nodebb-plugin-facebook",
+  "version": "0.1.0",
+  "nbbpm": {
+    "compatibility": "^0.6.0"
+  },
+  "description": "NodeBB Facebook posts embed Plugin that embeds Facebook posts inline in posts.",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highkick05/nodebb-plugin-facebook"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "facebook",
+    "embed",
+    "posts"
+  ],
+  "author": {
+    "name": "highkick05",
+    "email": "mattwillis02@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/highkick05/nodebb-plugin-facebook/issues"
+  },
+  "_id": "nodebb-plugin-facebook@0.1.0",
+  "_from": "nodebb-plugin-facebook@0.1.0",
+  "gitHead": "3d0863030cbc264599da38d5f5062ee6ec684da6",
+  "homepage": "https://github.com/highkick05/nodebb-plugin-facebook",
+  "_shasum": "6dc4a3356a59c6a40e10d0ae429476be10c162fc",
+  "_npmVersion": "1.4.14",
+  "_npmUser": {
+    "name": "highkick05",
+    "email": "mattwillis02@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "highkick05",
+      "email": "mattwillis02@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "6dc4a3356a59c6a40e10d0ae429476be10c162fc",
+    "tarball": "http://registry.npmjs.org/nodebb-plugin-facebook/-/nodebb-plugin-facebook-0.1.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nodebb-plugin-facebook-/nodebb-plugin-facebook-0.1.0.tgz"
+}
