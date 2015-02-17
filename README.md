@@ -4,7 +4,7 @@ NodeBB Facebook Posts Plugin
 My first plugin for NodeBB. Adds simplicity to publishing Facebook content.
 
 Step 1:
-Paste this in your NodeBB theme's header template directly after the <body> property. 
+Paste this in your NodeBB theme's header template directly after the ``<body>`` property. 
 You can simply edit /node_modules/nodebb-theme-lavender/templates/header.tpl (vanilla theme would also work)
 
 For example put this code underneath the ``<body>`` this should look like:
