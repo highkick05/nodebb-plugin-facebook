@@ -1,18 +1,34 @@
 # nodebb-plugin-facebook
 NodeBB Facebook Posts Plugin
 
-My first plugin for NodeBB. Embed's Facebook posts. I like simplicity in forums, this makes it easier to publish content.
+My first plugin for NodeBB. Embed's Facebook posts. I like simplicity with posting, this makes it easier to publish Facebook content.
 
-Paste this to your 'CUSTOM HEADER' section under Custom HTML & CSS in your Admin ACP under 'Appearance'.
+Step 1:
+Paste this in your NodeBB theme's header template directly after the <body> property. 
+You can simply edit /node_modules/nodebb-theme-lavender/templates/header.tpl (vanilla theme would also work)
+
+For example, should look like:
+```
+<body>
+<div id="fb-root"></div>
+	<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+```
+
+Step 2:
+Paste this to your 'CUSTOM HEADER' section under Custom HTML & CSS in your Admin ACP under 'Appearance':
 ```
 <script>
     var facebookPosts = document.getElementById('#fb-post');
     facebookPosts.innerHTML = '<div class="fb-post" data-href="https://www.facebook.com/$1/posts/$2" data-width="500"></div>';
 </script>
 ```
-Remember to tick Use Custom Header? checkbox then click Save.
+Remember to tick Use Custom Header? check box then click Save. Reboot NodeBB
 
-This will allow Facebook posts to dynamically update inside posts while browsing threads in NodeBB.
+Step 3:
+Making Facebook posts embed (note will not work with photo posts, will add this later)
+
+![alt tag](https://raw.github.com/highkick05/nodebb-plugin-facebook/facebook-plugin.jpg)
+
+Copy this "https://www.facebook.com/aussieanna.tolliday/posts/10206290393601454" link and paste it in your new post. Done
 
 
-Regards to the NodeBB Developers. What a beautiful forum being developed :-)
