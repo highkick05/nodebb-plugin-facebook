@@ -7,7 +7,7 @@ Step 1:
 Paste this in your NodeBB theme's header template directly after the <body> property. 
 You can simply edit /node_modules/nodebb-theme-lavender/templates/header.tpl (vanilla theme would also work)
 
-For example, should look like:
+For example put this code underneath the <body> this should look like:
 ```
 <body>
 <div id="fb-root"></div>
@@ -27,7 +27,7 @@ Remember to tick Use Custom Header? check box then click Save. Reboot NodeBB
 Step 3:
 Making Facebook posts embed (note will not work with photo posts, will add this later)
 
-![alt tag](https://raw.github.com/highkick05/nodebb-plugin-facebook/facebook-plugin.jpg)
+![alt tag](https://raw.github.com/highkick05/nodebb-plugin-facebook/master/facebook-plugin.jpg)
 
 Copy this "https://www.facebook.com/aussieanna.tolliday/posts/10206290393601454" link and paste it in your new post. Done
 
