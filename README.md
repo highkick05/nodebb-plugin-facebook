@@ -27,8 +27,8 @@ Remember to tick Use Custom Header? check box then click Save. Reboot NodeBB
 Step 3:
 Making Facebook posts embed (note will not work with photo posts, will add this later)
 
-![alt tag](https://raw.github.com/highkick05/nodebb-plugin-facebook/master/facebook-plugin.jpg)
+![alt tag](https://github.com/highkick05/nodebb-plugin-facebook/blob/master/facebook-plugin.jpg)
 
-Copy this "https://www.facebook.com/aussieanna.tolliday/posts/10206290393601454" link and paste it in your new post. Done
+Right click and 'Copy Link Addess' and paste into post and you're done. Recheck the steps if it does not work.
 
 
