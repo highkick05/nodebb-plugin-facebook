@@ -1,7 +1,7 @@
 # nodebb-plugin-facebook
 NodeBB Facebook Posts Plugin
 
-My first plugin for NodeBB. Embed's Facebook posts. I like simplicity with posting, this makes it easier to publish Facebook content.
+My first plugin for NodeBB. Adds simplicity to publishing Facebook content.
 
 Step 1:
 Paste this in your NodeBB theme's header template directly after the <body> property. 
