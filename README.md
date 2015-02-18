@@ -4,8 +4,8 @@ NodeBB Facebook Posts Plugin
 My first plugin for NodeBB. Adds simplicity to publishing Facebook content.
 
 Step 1:
-Paste this in your NodeBB theme's header template directly after the ``<body>`` property. 
-You can simply edit /node_modules/nodebb-theme-lavender/templates/header.tpl (vanilla theme would also work)
+After installing plugin. Paste this in your NodeBB theme's header template directly after the ``<body>`` property. 
+You can simply edit /node_modules/nodebb-theme-lavender/templates/header.tpl (needs to be the theme you are using)
 
 For example put this code underneath the ``<body>`` this should look like:
 ```
@@ -13,6 +13,7 @@ For example put this code underneath the ``<body>`` this should look like:
 <div id="fb-root"></div>
 	<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
 ```
+Reload/Restart NodeBB.
 
 Step 2:
 Paste this to your 'CUSTOM HEADER' section under Custom HTML & CSS in your Admin ACP under 'Appearance':
@@ -23,13 +24,15 @@ $(window).on('action:ajaxify.end', function(){
 });
 </script>
 ```
-Remember to tick Use Custom Header? check box then click Save. Reboot NodeBB
+Remember to tick Use Custom Header? check box then click Save. 
 
 Step 3:
 Making Facebook posts embed (note will not work with photo posts, will add this later)
 
 ![alt tag](https://github.com/highkick05/nodebb-plugin-facebook/blob/master/facebook-plugin.jpg)
 
-Right click and 'Copy Link Addess' and paste into post and you're done. Recheck the steps if it does not work.
+Right click and 'Copy Link Addess' and paste in post and you're done. Recheck the steps if it does not work.
+
+*TODO: Fix Masonary bug on front page. Doesn't auto organise correctly. I suggest setting # Number recent replies to 0 in Category in ACP until I can solve this issue.*
 
 
