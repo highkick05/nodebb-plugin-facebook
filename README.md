@@ -17,9 +17,10 @@ For example put this code underneath the ``<body>`` this should look like:
 Step 2:
 Paste this to your 'CUSTOM HEADER' section under Custom HTML & CSS in your Admin ACP under 'Appearance':
 ```
-<script>
-    var facebookPosts = document.getElementById('#fb-post');
-    facebookPosts.innerHTML = '<div class="fb-post" data-href="https://www.facebook.com/$1/posts/$2" data-width="500"></div>';
+<script type="text/javascript">
+$(window).on('action:ajaxify.end', function(){
+    FB.XFBML.parse(document.getElementById('#fb-post'));;
+});
 </script>
 ```
 Remember to tick Use Custom Header? check box then click Save. Reboot NodeBB
