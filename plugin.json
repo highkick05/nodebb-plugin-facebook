@@ -5,10 +5,7 @@
 	"url": "https://github.com/highkick05/nodebb-plugin-facebook",
 	"library": "./library.js",
 	"hooks": [
-		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }
-	],
-	"staticDirs": {
-        "css": "./static"
-    }
-
+		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true },
+		{ "hook": "filter:parse.raw", "method": "parse", "callbacked": true }
+	]
 }
