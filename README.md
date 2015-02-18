@@ -13,7 +13,7 @@ For example put this code underneath the ``<body>`` this should look like:
 <div id="fb-root"></div>
 	<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
 ```
-Reload/Restart NodeBB.
+Save file. Reload/Restart NodeBB.
 
 Step 2:
 Paste this to your 'CUSTOM HEADER' section under Custom HTML & CSS in your Admin ACP under 'Appearance':
