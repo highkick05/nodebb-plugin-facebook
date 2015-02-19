@@ -18,9 +18,15 @@ Save file. Reload/Restart NodeBB.
 Step 2:
 Paste this to your 'CUSTOM HEADER' section under Custom HTML & CSS in your Admin ACP under 'Appearance':
 ```
-<script type="text/javascript">
+<script>
+$(document).on('ready', function(){
+    FB.XFBML.parse(document.getElementById('#fb-post'));
+});
 $(window).on('action:ajaxify.end', function(){
-    FB.XFBML.parse(document.getElementById('#fb-post'));;
+    FB.XFBML.parse(document.getElementById('#fb-post'));
+});
+$(window).on('action:posts.loaded', function(){
+    FB.XFBML.parse(document.getElementById('#fb-post'));
 });
 </script>
 ```
