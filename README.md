@@ -37,7 +37,7 @@ Making Facebook posts embed (note will not work with photo posts, will add this 
 
 ![alt tag](https://github.com/highkick05/nodebb-plugin-facebook/blob/master/facebook-plugin.jpg)
 
-Right click and 'Copy Link Addess' and paste in post and you're done. Recheck the steps if it does not work.
+Right click on Facebook post time and 'Copy Link Addess' and paste in post and you're done. Recheck the steps if it does not work.
 
 *TODO: Fix Masonary bug on front page. Doesn't auto organise correctly. I suggest setting # Number recent replies to 0 in Category in ACP until I can solve this issue.*
 
