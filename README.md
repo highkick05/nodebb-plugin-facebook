@@ -39,6 +39,6 @@ Making Facebook posts embed (note will not work with photo posts, will add this 
 
 Right click on Facebook post time and 'Copy Link Addess' and paste in post and you're done. Recheck the steps if it does not work.
 
-*TODO: Fix Masonary bug on front page. Doesn't auto organise correctly. I suggest setting # Number recent replies to 0 in Category in ACP until I can solve this issue.*
+*TODO: OK there is a small bug in masonry and widgets in 0.6.* but it appears to work on 0.7.0 branch*
 
 
